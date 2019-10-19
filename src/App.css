@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -7,6 +8,10 @@
 }
 
 .App-header {
+  /* background-image: url("mariposaEstelar.jpg");  */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   background-color: #000;
   min-height: 100vh;
   display: flex;

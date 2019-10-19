@@ -1,19 +1,26 @@
-import React from 'react';
+import React, {Component} from 'react';
 import logo from './tenor.gif';
 import './App.css';
+import Navbar from './Router'
+import Skills from './Skills';
+import Contact from './Contact';
+import About from './AboutMe';
+import Proyects from './Proyects';
+//import Butterfly from './Butterflies'
 
-function App() {
+class App extends Component {
+  render(){
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Aquí estará mi portafolio
-        </p>
-       
-      </header>
+      <Navbar/>
+      <img src={logo} className="App-logo" alt="logo" />
+      <About/>
+      <Skills/>
+      <Proyects/>
+      <Contact/> 
     </div>
-  );
+  
+  )}
 }
 
 export default App;
