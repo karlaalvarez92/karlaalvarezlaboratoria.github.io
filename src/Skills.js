@@ -1,9 +1,12 @@
 import React from 'react';
 
-function Skills() {
+export default function Skills({ title, subtitle, dark, id }) {
   return (
-  <h1>Skills</h1>
-   );
+    <div className={"section" + (dark ? " section-dark" : "")}>
+      <div className="section-content" id={id}>
+        <h1>{title}</h1>
+        <p>{subtitle}</p>
+      </div>
+    </div>
+  );
 }
-
-export default Skills;

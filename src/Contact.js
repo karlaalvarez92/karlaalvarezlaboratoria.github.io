@@ -1,9 +1,12 @@
 import React from 'react';
 
-function Contact() {
+export default function Contact({ title, subtitle, dark, id }) {
   return (
-  <h1>Contact</h1>
-   );
+    <div className={"section" + (dark ? " section-dark" : "")}>
+      <div className="section-content" id={id}>
+        <h1>{title}</h1>
+        <p>{subtitle}</p>
+      </div>
+    </div>
+  );
 }
-
-export default Contact;
