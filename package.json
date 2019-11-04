@@ -2,7 +2,7 @@
   "name": "keac-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://karlaalvarezlaboratoria.github.io/portfolio",
+  "homepage": "https://karlaalvarezlaboratoria.github.io",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.10.1",
@@ -16,7 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
