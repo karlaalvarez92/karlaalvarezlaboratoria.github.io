@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 //import logo from './tenor.gif';
 import './App.css';
-import Navbar from './Navbar'
-import Skills from './Skills';
-import Contact from './Contact';
-import About from './AboutMe';
-import Proyects from './Proyects';
-import Home from './Home';
+import Navbar from './Components/Navbar/Navbar'
+import Skills from './Components/Skills/Skills';
+import Contact from './Components/Contact/Contact';
+import About from './Components/AboutMe/AboutMe';
+import Proyects from './Components/Projects/Proyects';
+import Home from './Components/Home/Home';
 //import Butterfly from './Butterflies'
 
 class App extends Component {
