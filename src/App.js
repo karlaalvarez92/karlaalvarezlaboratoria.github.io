@@ -6,6 +6,7 @@ import Skills from './Skills';
 import Contact from './Contact';
 import About from './AboutMe';
 import Proyects from './Proyects';
+import Home from './Home';
 //import Butterfly from './Butterflies'
 
 class App extends Component {
@@ -13,29 +14,35 @@ class App extends Component {
   return (
     <div className="App">
         <Navbar />
+        <Home
+          title="Karla Alvarez"
+          subtitle={"Front-end developer Jr."}
+          dark={false}
+          id="Home"
+        />
         <About
-          title="About me"
-          //subtitle={dummyText}
+          title="Acerca de mi"
+          //subtitle={}
           dark={true}
-          id="section1"
+          id="About me"
         />
         <Skills
           title="Skills"
           //subtitle={dummyText}
           dark={false}
-          id="section2"
+          id="Skills"
         />
         <Proyects
           title="Projects"
           //subtitle={dummyText}
           dark={true}
-          id="section3"
+          id="Projects"
         />
         <Contact
           title="Contact"
           //subtitle={dummyText}
           dark={false}
-          id="section4"
+          id="Contact"
         />
         {/* <Section
           title="Section 5"
