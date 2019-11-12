@@ -8,15 +8,37 @@ import About from './Components/AboutMe/AboutMe';
 import Proyects from './Components/Projects/Proyects';
 import Home from './Components/Home/Home';
 //import Butterfly from './Butterflies'
+import portfolio from './portfolio';
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      title: "",
+      subtitle: "",
+      aboutMe: "",
+    }
+  }
+
+  componentDidMount= () => {
+    let data= portfolio.portfolio
+    data.map(el => {
+      this.setState({
+        title: el.title,
+        subtitle: el.subtitle,
+        aboutMe:el.aboutMe
+      })
+    })
+}
+
   render(){
+    console.log(this.state)
   return (
     <div className="App">
         <Navbar />
         <Home
-          title="Karla Alvarez"
-          subtitle={"Front-end developer Jr."}
+          title= {this.state.title}
+          subtitle={this.state.subtitle}
           dark={false}
           id="Home"
         />
@@ -25,6 +47,7 @@ class App extends Component {
           //subtitle={}
           dark={true}
           id="About me"
+          aboutMe = {this.state.aboutMe}
         />
         <Skills
           title="Skills"
