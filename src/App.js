@@ -17,29 +17,32 @@ class App extends Component {
       title: "",
       subtitle: "",
       aboutMe: "",
+      softSkills: "",
+      technicallSkills: ""
     }
   }
 
   componentDidMount= () => {
     let data= portfolio.portfolio
-    data.map(el => {
+    data.map(el =>
       this.setState({
         title: el.title,
         subtitle: el.subtitle,
-        aboutMe:el.aboutMe
+        aboutMe:el.aboutMe,
+        softSkills: el.softSkills,
+        technicallSkills: el.technicallSkills
       })
-    })
+    )
 }
 
   render(){
-    console.log(this.state)
+  
   return (
     <div className="App">
         <Navbar />
         <Home
           title= {this.state.title}
           subtitle={this.state.subtitle}
-          dark={false}
           id="Home"
         />
         <About
@@ -54,6 +57,8 @@ class App extends Component {
           //subtitle={dummyText}
           dark={false}
           id="Skills"
+          softSkills={this.state.softSkills}
+          technicallSkills={this.state.technicallSkills}
         />
         <Proyects
           title="Projects"
