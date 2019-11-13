@@ -55,6 +55,7 @@ export default class Navbar extends Component {
                 Skills
               </Link>
             </li>
+            {/* <img alt= "" id="nav-logo" className="nav-item" src="./mariposa-colorida-acuarela.png"/> */}
             <li className="nav-item">
               <Link
                 activeClass="active"

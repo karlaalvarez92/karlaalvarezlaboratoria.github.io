@@ -30,7 +30,9 @@ class App extends Component {
         subtitle: el.subtitle,
         aboutMe:el.aboutMe,
         softSkills: el.softSkills,
-        technicallSkills: el.technicallSkills
+        technicallSkills: el.technicallSkills,
+        projects: el.projects,
+        contact: el.contact
       })
     )
 }
@@ -65,12 +67,14 @@ class App extends Component {
           //subtitle={dummyText}
           dark={true}
           id="Projects"
+          projects = {this.state.projects}
         />
         <Contact
           title="Contact"
           //subtitle={dummyText}
           dark={false}
           id="Contact"
+          contact = {this.state.contact}
         />
         {/* <Section
           title="Section 5"

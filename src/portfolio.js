@@ -17,26 +17,56 @@ const data= {
             "React-native"
         ],
         "projects":[{
-            "titleProject":"Burger Queen",
-            "description":"Descripción de Burger Queen",
-            "technologies":"Estas son las tecnologías"
+            "titleProject":"Ne-Koffee",
+            "description":"Descripción",
+            "technologies":["React.js", "CSS3" ],
+            "image":["neko1", "neko2"],
+            "link": "https://jovial-keller-ef5c8b.netlify.com/",
+            "repo": "https://github.com/karlaalvarezlaboratoria/GDL003-Burger-Queen-Front-End",
+            "demo": ""
         },
         {
-            "titleProject":"Prueba 2",
+            "titleProject":"Markdown Links",
             "description":"Descripción de Prueba 2",
-            "technologies":"Estas son las tecnologías"
+            "technologies":["Node.js"],
+            "image":["md1", "md2"],
+            "link": "",
+            "repo": "https://github.com/karlaalvarezlaboratoria/GDL003-md-links",
+            "demo": "",
         },
         {
-            "titleProject":"Prueba 3",
+            "titleProject":"Lab Notes",
             "description":"Descripción de Prueba 3",
-            "technologies":"Estas son las tecnologías"
+            "technologies":["React.js", "Reactstrap"],
+            "image":["lab1", "lab2"],
+            "link": "",
+            "repo": ""
         }],
-        "contact":[{
-            "linkedin":["nombre","ruta"],
-            "github":["nombre", "ruta"],
-            "email":["karla.alvarez.castillo@gmail.com"],
-            "cv":"liga para descargar cv"    
-            }]
+        "contact":[
+        {
+            "id": "Linkedin",
+            "link": "link",
+            "text": "text",
+            "icon": "icon,"
+        },
+        {
+            "id": "Github",
+            "link": "link",
+            "text": "text",
+            "icon": "icon,"
+        },
+        {
+            "id": "Gmail",
+            "link": "link",
+            "text": "text",
+            "icon": "icon,"
+        },
+        {
+            "id": "CV",
+            "link": "link",
+            "text": "text",
+            "icon": "icon,"
+        }]       
     }]
 }
 

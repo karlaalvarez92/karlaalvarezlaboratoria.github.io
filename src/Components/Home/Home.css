@@ -1,6 +1,8 @@
-/* .homeBackground {
-    background-image: url("acuarelaColorida1.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  } */
+.homeBackground {
+    background-color: white;
+    opacity: 0.6;
+    margin: 3rem;
+    height: 20rem;
+  }
+
+

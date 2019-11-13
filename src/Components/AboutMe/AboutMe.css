@@ -1,4 +1,5 @@
-/* .aboutMeBackground {
-    background-image: url("Exp.jpg");
+.aboutMeBackground {
+    background-color:#154360;
     background-size: 100%;
-  } */
+    margin: 3rem;
+  }
