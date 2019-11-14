@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Roboto+Condensed&display=swap');
+
 .home-container {
   padding: 1rem; 
 }
@@ -9,7 +11,7 @@
   margin-left: 5rem;
   margin-top: 9rem;
   font-size: 2rem;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  
 }
 
 .background {
@@ -22,8 +24,14 @@
   opacity: 0.5;
 }
 
+.subtitle{
+  /* font:bold; */
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 .title{
-  text-decoration:underline;
+  font-family: 'Merienda One', cursive;
+  /* text-decoration:underline; */
   margin-bottom: -1.5rem;
 }
 

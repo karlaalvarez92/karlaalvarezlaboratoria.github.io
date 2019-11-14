@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Roboto+Condensed&display=swap');
+
 .nav {
     background-position: center;
     background-repeat: no-repeat;
@@ -7,6 +9,7 @@
     height: 4rem;
     z-index: 1000;
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+    font-family: 'Roboto Condensed', sans-serif;
   }
   
   #logo {
