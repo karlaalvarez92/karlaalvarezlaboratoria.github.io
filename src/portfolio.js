@@ -1,6 +1,8 @@
 const data= {
     "portfolio":[
         {
+        "logo":"https://i.ibb.co/hWZQxJT/mariposa-colorida-acuarela.png",
+        "background":"",
         "title": "Karla Alvarez",
         "subtitle": "Front-end Developer Jr.",
         "aboutMe": [
@@ -20,7 +22,7 @@ const data= {
             "titleProject":"Ne-Koffee",
             "description":"Descripción",
             "technologies":["React.js", "CSS3" ],
-            "image":["neko1", "neko2"],
+            "image":["https://i.ibb.co/bgyNCFk/nekoffe1.png", "https://i.ibb.co/gd7RZ2j/nekoffe2.png"],
             "link": "https://jovial-keller-ef5c8b.netlify.com/",
             "repo": "https://github.com/karlaalvarezlaboratoria/GDL003-Burger-Queen-Front-End",
             "demo": ""
@@ -28,8 +30,8 @@ const data= {
         {
             "titleProject":"Markdown Links",
             "description":"Descripción de Prueba 2",
-            "technologies":["Node.js"],
-            "image":["md1", "md2"],
+            "technologies":["Node.js", "JavaScrip"],
+            "image":["https://i.ibb.co/bgyNCFk/nekoffe1.png", "https://i.ibb.co/gd7RZ2j/nekoffe2.png"],
             "link": "",
             "repo": "https://github.com/karlaalvarezlaboratoria/GDL003-md-links",
             "demo": "",
@@ -38,7 +40,7 @@ const data= {
             "titleProject":"Lab Notes",
             "description":"Descripción de Prueba 3",
             "technologies":["React.js", "Reactstrap"],
-            "image":["lab1", "lab2"],
+            "image":["https://i.ibb.co/bgyNCFk/nekoffe1.png", "https://i.ibb.co/gd7RZ2j/nekoffe2.png"],
             "link": "",
             "repo": ""
         }],

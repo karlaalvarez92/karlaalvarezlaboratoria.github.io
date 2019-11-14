@@ -1,8 +1,9 @@
 import React from 'react';
-import "./Projects.css"
-import neko1 from "./nekoffe1.png"
+import "./Projects.css";
+//import keac from "./nekoffe1.png";
 
 export default function Projects({ title, subtitle, projects, id }) {
+  //let algo = './nekoffe.1png'
   return (
     
       <div className="section-projects" id={id}>
@@ -11,8 +12,18 @@ export default function Projects({ title, subtitle, projects, id }) {
            <div className= 'projects' key={element.titleProject}>
              
              <h3>{element.titleProject}</h3>
-             {console.log(element.image[0])}
-             <img alt="" src={element.image[0]}/> 
+
+             {/* <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                  <img className= "image" alt="" src={element.image[0]}/> 
+                  </div>
+                  <div class="flip-card-back">
+                  <img className= "image" alt="" src={element.image[1]}/>  
+                  </div>
+                </div>
+              </div> */}
+             
              <p>{element.description}</p>
              <ul>
                {element.technologies.map(el =>

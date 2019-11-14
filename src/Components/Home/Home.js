@@ -1,13 +1,14 @@
-import React from 'react';
-import './Home.css'
+import React from "react";
+import "./Home.css";
 
-export default function Home({ title, subtitle, dark, id }) {
+export default function Home({ title, subtitle,id }) {
   return (
-    <div className="homeBackground">
-      <div className="section-content" id={id}>
-        <h1>{title}</h1>
-        <p>{subtitle}</p>
+    <div id={id} className="home-container">
+      <div className="text">
+        <h1 className= "title">{title}</h1>
+        <p className="subtitle">{subtitle}</p>
       </div>
+      <div className="background trans"></div>
     </div>
   );
 }

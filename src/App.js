@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Skills from './Components/Skills/Skills';
 import Contact from './Components/Contact/Contact';
 import About from './Components/AboutMe/AboutMe';
-import Proyects from './Components/Projects/Proyects';
+import Proyects from './Components/Projects/Projects';
 import Home from './Components/Home/Home';
 //import Butterfly from './Butterflies'
 import portfolio from './portfolio';
@@ -14,6 +14,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
+      logo: "",
       title: "",
       subtitle: "",
       aboutMe: "",
@@ -26,6 +27,7 @@ class App extends Component {
     let data= portfolio.portfolio
     data.map(el =>
       this.setState({
+        logo: el.logo,
         title: el.title,
         subtitle: el.subtitle,
         aboutMe:el.aboutMe,
@@ -41,11 +43,18 @@ class App extends Component {
   
   return (
     <div className="App">
-        <Navbar />
+        <Navbar logo= {this.state.logo} />
         <Home
           title= {this.state.title}
           subtitle={this.state.subtitle}
-          id="Home"
+          id="Home" 
+        />
+         <Proyects
+          title="Projects"
+          //subtitle={dummyText}
+          dark={true}
+          id="Projects"
+          projects = {this.state.projects}
         />
         <About
           title="Acerca de mi"
@@ -62,13 +71,7 @@ class App extends Component {
           softSkills={this.state.softSkills}
           technicallSkills={this.state.technicallSkills}
         />
-        <Proyects
-          title="Projects"
-          //subtitle={dummyText}
-          dark={true}
-          id="Projects"
-          projects = {this.state.projects}
-        />
+       
         <Contact
           title="Contact"
           //subtitle={dummyText}
@@ -76,13 +79,13 @@ class App extends Component {
           id="Contact"
           contact = {this.state.contact}
         />
-        {/* <Section
+         {/* <Section
           title="Section 5"
           subtitle={dummyText}
           dark={true}
           id="section5"
         /> */}
-      </div>
+      </div> 
     );
   }
 }

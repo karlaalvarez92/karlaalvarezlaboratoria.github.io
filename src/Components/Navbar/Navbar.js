@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import './Navbar.css';
-//import logo from "../logo.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export default class Navbar extends Component {
@@ -12,14 +11,8 @@ export default class Navbar extends Component {
     return (
       <nav className="nav" id="navbar">
         <div className="nav-content">
-           {/* <button
-            src={'./mariposa-colorida-acuarela.png'}
-            className="nav-logo"
-            alt="Logo"
-            onClick={this.scrollToTop}
-          />  */}
           <ul className="nav-items">
-            <li className="nav-item">
+            <li id = "item" className="nav-item">
               <Link
                 activeClass="active"
                 to="Home"
@@ -31,32 +24,7 @@ export default class Navbar extends Component {
                 Home
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                activeClass="active"
-                to="About me"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                About me
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                activeClass="active"
-                to="Skills"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Skills
-              </Link>
-            </li>
-            {/* <img alt= "" id="nav-logo" className="nav-item" src="./mariposa-colorida-acuarela.png"/> */}
-            <li className="nav-item">
+            <li id = "item" className="nav-item">
               <Link
                 activeClass="active"
                 to="Projects"
@@ -68,7 +36,33 @@ export default class Navbar extends Component {
                 Projects
               </Link>
             </li>
-            <li className="nav-item">
+            <img src={this.props.logo} alt="" className= "nav-item" id="logo"/>
+            <li id = "item" className="nav-item">
+              <Link
+                activeClass="active"
+                to="About me"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                About me
+              </Link>
+            </li>
+            <li id = "item" className="nav-item">
+              <Link
+                activeClass="active"
+                to="Skills"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Skills
+              </Link>
+            </li>
+            
+            <li id = "item" className="nav-item">
               <Link
                 activeClass="active"
                 to="Contact"
