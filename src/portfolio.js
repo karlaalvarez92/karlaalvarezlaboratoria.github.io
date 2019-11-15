@@ -47,27 +47,27 @@ const data= {
         "contact":[
         {
             "id": "Linkedin",
-            "link": "link",
-            "text": "text",
-            "icon": "icon,"
+            "link": "https://www.linkedin.com/in/karlaalvarezc/",
+            "text": "karlaalvarezc",
+            "icon": "https://i.ibb.co/S30pnhr/linkedin.png"
         },
         {
             "id": "Github",
-            "link": "link",
-            "text": "text",
-            "icon": "icon,"
+            "link": "https://github.com/karlaalvarezlaboratoria",
+            "text": "karlaalvarezlaboratoria",
+            "icon": "https://i.ibb.co/xSwB7Kh/github.png"
         },
         {
             "id": "Gmail",
             "link": "link",
-            "text": "text",
-            "icon": "icon,"
+            "text": "karla.alvarez.castillo@gmail.com",
+            "icon": "https://i.ibb.co/2PbjwLJ/gmail-logo.png"
         },
         {
             "id": "CV",
             "link": "link",
-            "text": "text",
-            "icon": "icon,"
+            "text": "Karla Alvarez",
+            "icon": "https://i.ibb.co/rF3NTb3/cv.png"
         }]       
     }]
 }

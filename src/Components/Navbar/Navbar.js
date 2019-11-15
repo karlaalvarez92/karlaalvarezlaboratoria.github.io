@@ -20,8 +20,9 @@ export default class Navbar extends Component {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                src = {this.props.logo}
               >
-                Home
+                
               </Link>
             </li>
             <li id = "item" className="nav-item">
@@ -36,7 +37,6 @@ export default class Navbar extends Component {
                 Projects
               </Link>
             </li>
-            <img src={this.props.logo} alt="" className= "nav-item" id="logo"/>
             <li id = "item" className="nav-item">
               <Link
                 activeClass="active"
@@ -49,6 +49,8 @@ export default class Navbar extends Component {
                 About me
               </Link>
             </li>
+            <img onClick={()=>this.scrollToTop()} src={this.props.logo} alt="" className= "nav-item" id="logo"/>
+        
             <li id = "item" className="nav-item">
               <Link
                 activeClass="active"
