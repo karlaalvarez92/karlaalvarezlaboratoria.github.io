@@ -59,13 +59,13 @@ const data= {
         },
         {
             "id": "Gmail",
-            "link": "link",
+            "link": "mailto:karla.alvarez.castillo@gmail.com",
             "text": "karla.alvarez.castillo@gmail.com",
             "icon": "https://i.ibb.co/2PbjwLJ/gmail-logo.png"
         },
         {
             "id": "CV",
-            "link": "link",
+            "link": "https://drive.google.com/uc?id=1h_uOgVig3a7ExZsjZ3V1GMgRHPG0rC7O&export=download",
             "text": "Karla Alvarez",
             "icon": "https://i.ibb.co/rF3NTb3/cv.png"
         }]       
