@@ -5,10 +5,6 @@
   background-repeat: no-repeat;
   text-align: center;
 }
-/* 
-.App-logo {
-  height: 40vmin;
-} */
 
 .App-header {
     
@@ -32,11 +28,6 @@
 :root {
   --off-white: #fafafa;
 }
-
-
-/* .section {
-  background-image: url("mariposaEstelar.jpg");
-} */
 
 .section-dark {
   background: #333;

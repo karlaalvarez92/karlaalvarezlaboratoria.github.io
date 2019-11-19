@@ -57,7 +57,7 @@ class App extends Component {
           projects = {this.state.projects}
         />
         <About
-          title="Acerca de mi"
+          title="About me"
           //subtitle={}
           dark={true}
           id="About me"

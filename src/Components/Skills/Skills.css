@@ -1,51 +1,87 @@
-/* .softList{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 10px;
-} */
-
 .skills-section{
-    background-color: lavender;
-    padding: 2rem; 
-    position: relative;
-    margin: 3rem;
+    background-image: url('./onda-correcta.png'); 
+    background-repeat: no-repeat;
+    background-position: 100% 53%; 
+    margin: 1rem; 
 }
 
-.skills{
-    background-color: white;  
-    margin: 2rem;
-    
+.skills-tec{
+  background-color:#ececec ;
+  color:#3a143f;
+  margin-bottom: 10rem;
+  padding-bottom: 1rem;
+  border-bottom-style: unset ;
+  z-index: 0;
 }
 
-#soft{
-    /* display: flex; */
-    float: right;
-    padding-right: 2rem;
-    /* column-count: 2; */
+.skills-soft{
+  background-color:#3a143f ;
+  color:#ececec;
+  padding-bottom: 1rem;
 }
 
 
-
-#technicall{
-    /* display: flex; */
-    float: left;
-    padding-right: 2rem;
-    /* width: 15rem; */
-    /* left: 0; */
-    /* column-count: 2; */
-    
+.soft-title{
+    font-family: 'Merienda One', cursive;
+    font-size: 3.2rem;
+    padding-top:2rem; 
+    margin-right: 40rem;
 }
 
-.list{
+.tec-title{
+    font-family: 'Merienda One', cursive;
+    font-size: 3.2rem;
+    padding-top:2rem; 
+    margin-left: 45rem;
+}
+
+ .softList{
+     margin-left: 47rem;
+} 
+
+.list-soft{
     font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: #ffffff;
-    background: #889ccf;
-    margin: 0 0 25px;
     overflow: hidden;
-    padding: 20px;
+    padding: .5rem;
+    background:  #3a143f;
+    background-color:#ececec;
+    color: #3a143f;
+    margin: 1rem;
+    font-size: 1rem;
+    width: 10rem;    
 }
+
+.list-tec{
+    font-family: sans-serif;
+    overflow: hidden;
+    padding: .5rem;
+    background-color:  #3a143f;
+    color: #ececec;
+    margin: 1rem;
+    font-size: 1rem;
+    width: 10rem;
+}
+
+svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    stroke: none;
+    fill: #ececec; 
+    /* flex-direction: row-reverse; */
+    /*-webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+    /* filter: invert(100%);  */
+  }
+
+  .container {
+    position: relative;
+    background-position: ;
+    width: 97%;
+    padding-bottom: 100%;
+    background-color: #3a143f;
+    margin: 1rem;
+    margin-top: -10rem;
+    margin-bottom: -10rem;
+  }
 

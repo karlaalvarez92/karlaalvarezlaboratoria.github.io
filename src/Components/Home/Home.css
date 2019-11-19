@@ -5,7 +5,7 @@
 }
 
 .text-home {
-  color: #5f4263;
+  color: #3a143f; 
   position: absolute;
   z-index: 1;
   margin-left: 5rem;
@@ -21,17 +21,15 @@
 }
 
 .trans {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .subtitle{
-  /* font:bold; */
   font-family: 'Roboto Condensed', sans-serif;
 }
 
 .title{
   font-family: 'Merienda One', cursive;
-  /* text-decoration:underline; */
   margin-bottom: -1.5rem;
 }
 

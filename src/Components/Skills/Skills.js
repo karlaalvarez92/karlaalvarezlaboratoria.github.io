@@ -5,23 +5,23 @@ export default function Skills({ title, softSkills, technicallSkills, id }) {
   
   return (
     <div className={"skills-section"} id={id}>
-      <h1>{title}</h1>
-
-      {/* <div className= "skills" id="soft">
-        <h3>Soft skills</h3> 
-        <ul className = "softList">
-          {softSkills && softSkills.map(el => 
-            <li className = "list" key={el}>{el}</li>)}
-        </ul>
-      </div> */}
-
-      {/* <div className="skills" id="technicall">
-        <h3>Technicall kills</h3>
+       <div className="skills-tec" id={id}>
+       <h1 className = "tec-title">Tools</h1>
         <ul className = "technicallList">
           {technicallSkills && technicallSkills.map(el => 
-            <li className= "list" key={el}>{el}</li>)}
+            <li className= "list-tec" key={el}>{el}</li>)}
         </ul>
-      </div> */}
-    </div>
+      </div>
+
+      <div className= "skills-soft">
+        <h1 className = "soft-title">Soft skills</h1> 
+        <ul className = "softList">
+          {softSkills && softSkills.map(el => 
+            <li className = "list-soft" key={el}>{el}</li>)}
+        </ul>
+      </div>
+
+     
+     </div>
   );
 }

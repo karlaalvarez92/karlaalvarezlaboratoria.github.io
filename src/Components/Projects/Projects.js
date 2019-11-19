@@ -1,19 +1,18 @@
 import React from 'react';
 import "./Projects.css";
-//import keac from "./nekoffe1.png";
 
 export default function Projects({ title, subtitle, projects, id }) {
-  //let algo = './nekoffe.1png'
   return (
     
       <div className="section-projects" id={id}>
-        <h1>{title}</h1>
+        <h1 className="title-projects">{title}</h1>
+        <div className="content-projects">
         {projects && projects.map(element =>
            <div className= 'projects' key={element.titleProject}>
              
-             <h3>{element.titleProject}</h3>
+             
 
-             {/* <div class="flip-card">
+             <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                   <img className= "image" alt="" src={element.image[0]}/> 
@@ -22,16 +21,20 @@ export default function Projects({ title, subtitle, projects, id }) {
                   <img className= "image" alt="" src={element.image[1]}/>  
                   </div>
                 </div>
-              </div> */}
-             
-             <p>{element.description}</p>
-             <ul>
+              </div>
+             <div className= "text-project">
+             <h3 className ="subtitle-project">{element.titleProject}</h3>
+             <p className= "description">{element.description}</p>
+             <ul className= "ul-tec">
                {element.technologies.map(el =>
-                <li key={el}>{el}</li>)}
+                <li className= "technologies-project" key={el}>{el}</li>)}
              </ul>
+             </div>
            </div>    
           )}
+        </div>
       </div>
+      
     
   );
 }

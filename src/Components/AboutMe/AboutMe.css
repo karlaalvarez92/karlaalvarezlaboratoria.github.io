@@ -1,5 +1,17 @@
 .aboutMeBackground {
-    background-color:#154360;
-    background-size: 100%;
-    margin: 3rem;
+  color:#ececec ;
+  background-color:#3a143f;
+  background-size: 100%;
+  margin: 1rem;
+  font-size: 1.4rem;
+  padding: 2.5rem;
+  }
+
+
+
+  .about-title{
+    margin-top: -.5rem;
+    margin-right: 40rem;
+    margin-left: -1rem; 
+    font-family: 'Merienda One', cursive;
   }
