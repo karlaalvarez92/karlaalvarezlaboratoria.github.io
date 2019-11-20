@@ -34,15 +34,15 @@ const data= {
             "JavaScriptES6",
             "HTML5",
             "CSS3",
-            "Firebase autentication",
-            "Firebase database",
+            "Firebase",
             "React.js",
             "React-native",
             "Node.js",
             "NPM",
             "Git",
             "Github",
-            "Kanban"
+            "Kanban",
+            "Jest"
         ],
         "projects":[{
             "titleProject":"Ne-Koffee",

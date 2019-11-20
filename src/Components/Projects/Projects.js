@@ -29,6 +29,8 @@ export default function Projects({ title, subtitle, projects, id }) {
                {element.technologies.map(el =>
                 <li className= "technologies-project" key={el}>{el}</li>)}
              </ul>
+             <p ><a id="link-project" target="_blank" rel= "noopener noreferrer" href={element.repo}>Ver repositorio</a></p>
+             <p ><a id="link-project" target="_blank" rel= "noopener noreferrer" href={element.link}>Ir a página web</a></p>
              </div>
            </div>    
           )}
