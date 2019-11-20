@@ -1,15 +1,15 @@
 .skills-section{
     background-image: url('./onda-correcta.png'); 
     background-repeat: no-repeat;
-    background-position: 100% 53%; 
+    background-position: 100% 41%; 
     margin: 1rem; 
 }
 
 .skills-tec{
   background-color:#ececec ;
   color:#3a143f;
+  padding:0;
   margin-bottom: 10rem;
-  padding-bottom: 1rem;
   border-bottom-style: unset ;
   z-index: 0;
 }
@@ -17,7 +17,7 @@
 .skills-soft{
   background-color:#3a143f ;
   color:#ececec;
-  padding-bottom: 1rem;
+  padding: 0rem; 
 }
 
 
@@ -35,53 +35,44 @@
     margin-left: 45rem;
 }
 
+.tecList{
+    column-count: 3; 
+    margin-right: 20rem;
+    margin-top:-6rem;
+    height: auto;
+    width: 60%;
+}
+
  .softList{
-     margin-left: 47rem;
+     padding:0;
+     margin-left: 23rem;
+     margin-top: -6rem;
+     column-count: 3;
+     width: 60%;
 } 
 
 .list-soft{
     font-family: sans-serif;
     overflow: hidden;
-    padding: .5rem;
+    padding:1rem;
     background:  #3a143f;
     background-color:#ececec;
     color: #3a143f;
-    margin: 1rem;
+    margin-bottom: 1rem;
     font-size: 1rem;
-    width: 10rem;    
+    width: 10rem;
+    height: 2rem; 
 }
 
 .list-tec{
     font-family: sans-serif;
     overflow: hidden;
-    padding: .5rem;
+    padding:1rem;
     background-color:  #3a143f;
     color: #ececec;
-    margin: 1rem;
+    margin-bottom: 1rem;
     font-size: 1rem;
     width: 10rem;
+    height: 2rem;
 }
-
-svg {
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    stroke: none;
-    fill: #ececec; 
-    /* flex-direction: row-reverse; */
-    /*-webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
-    /* filter: invert(100%);  */
-  }
-
-  .container {
-    position: relative;
-    background-position: ;
-    width: 97%;
-    padding-bottom: 100%;
-    background-color: #3a143f;
-    margin: 1rem;
-    margin-top: -10rem;
-    margin-bottom: -10rem;
-  }
 
