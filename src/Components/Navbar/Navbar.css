@@ -16,16 +16,16 @@ header nav{
   width:90%;
   background-color:#ebebeb ;
   text-align: center;
-
 }
 
 header nav ul{
-  overflow: hidden;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 header nav ul li{
+  font-family: 'Roboto Condensed', sans-serif;
   padding:20px;
   text-decoration:none;
   display:block;
@@ -39,11 +39,6 @@ header nav ul li:hover{
 header nav ul img{
   width: 4rem;
 }
-
-header nav ul img:hover{
-  width: 4.5rem;
-}
-
 
  @media screen and (max-width: 894px) {
 
@@ -88,55 +83,4 @@ header nav ul img:hover{
 	} 
  
 } 
-
-
-
-
-
-/*---------------------------------------------*/
-
- /* .nav {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #ebebeb;
-    position: sticky;
-    top: 0px;
-    height: 4rem;
-    z-index: 1000;
-    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  
-  #logo {
-    margin-bottom: -1.5rem;
-    height: 4rem; 
-  }
-
-  #item{
-    line-height: 4rem;
-  }
-  
-  .nav-logo:hover {
-    cursor: pointer;
-  }
-  
-  .nav .nav-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    margin-right: 10rem;
-  }
-  
-  .nav-item {
-    
-    display: inline;
-    margin-left: 3rem;
-    color: #333;
-  }
-  
-  .nav-item:hover {
-    color: black;
-    cursor: pointer;
-  }  */
 

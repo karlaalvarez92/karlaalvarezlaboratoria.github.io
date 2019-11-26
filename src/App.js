@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Skills from './Components/Skills/Skills';
 import Contact from './Components/Contact/Contact';
 import About from './Components/AboutMe/AboutMe';
-import Proyects from './Components/Projects/Projects';
+import Projects from './Components/Projects/Projects';
 import Home from './Components/Home/Home';
 //import Butterfly from './Butterflies'
 import portfolio from './portfolio';
@@ -44,19 +44,19 @@ class App extends Component {
   return (
     <div className="App">
         <Navbar logo= {this.state.logo} />
-        {/* <Home
+        <Home
           title= {this.state.title}
           subtitle={this.state.subtitle}
           id="Home" 
         />
-         <Proyects
+         <Projects
           title="Projects"
           //subtitle={dummyText}
           dark={true}
           id="Projects"
           projects = {this.state.projects}
         />
-        <About
+       {/* <About
           title="About me"
           //subtitle={}
           dark={true}
