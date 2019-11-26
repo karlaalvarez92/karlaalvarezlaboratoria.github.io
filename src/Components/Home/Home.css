@@ -1,27 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Roboto+Condensed&display=swap');
 
 .home-container {
-  padding: 1rem; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
 .text-home {
+  left: 10%;
   color: #3a143f; 
   position: absolute;
   z-index: 1;
-  margin-left: 5rem;
-  margin-top: 9rem;
+  margin-top: 14rem;
   font-size: 2rem;
   
 }
 
 .background {
-  width: 100%;
+  width: 90%;
   height: 23rem;
   background-color: #f0f7f5;
 }
 
 .trans {
   opacity: 0.3;
+  width: 90%;
 }
 
 .subtitle{
