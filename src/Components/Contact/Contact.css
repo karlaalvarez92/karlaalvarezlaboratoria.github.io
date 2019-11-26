@@ -1,67 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Roboto+Condensed&display=swap');
 
 .contact-container {
-  /* padding: 1rem;  */
-  /* display: inline-flex; */
-  /* position:absolute; */
-  /* align-items: center; */
-  /* background-color: blue; */
-  /* position: relative; */
-  /* text-align: center; */
-  /* margin-left: auto; */
-  /* margin-right:auto; */
-  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
-.text-container {
-  color: #3a143f;
-  /* background-color: burlywood; */
-  position: absolute;
-  /* right: 2rem; */
-  z-index: 1;
-  font-size: 1.6rem;
-  /* align-items: center; */
-  /* align-content: center; */
-  /* text-align: center; */
-  margin-left: 17rem;
-  width: auto;
-  
+.contact-container section{
+  width: 90%;
+  background: rgba(240, 247, 245, .5);
+  text-align: center;
 }
 
-.background {
-  width: 100%;
-  height: 23rem;
-  /* background-color: #f0f7f5; */
-}
-
-.trans {
-  opacity: 0.5;
-  /* align-items: center; */
-}
-
-.links{
-    color: #3a143f;
-    /* background-attachment: fixed; */
-    margin-right: 1rem;
-    /* vertical-align: top; */
-}
-
-.contact{
-  /* background-color: blanchedalmond; */
-  display: inline;
-}
-
-.icon{
-    /* background-attachment: fixed; */
-    width: 5rem;
-    margin: 1rem;
-    margin-top:5rem;
-    /* background-color:black; */
-    /* display: flex */
-}
-
-.contact-title{
+.contact-container section h1{
+  margin: auto auto;
   font-family: 'Merienda One', cursive;
-  /* margin-right: 3rem; */
-  margin-bottom: 2rem;
+  color:#3a143f;
+  font-size: 3rem;
+  text-align: center;
+  padding:3% 0% 3% 0%;
+}
+
+.contact-container section div{
+display: inline;
+}
+
+.contact-container section div img{
+  margin:3rem 3rem;
+}
+
+.contact-trans {
+  opacity: 0.3;
+  width: 90%;
 }
