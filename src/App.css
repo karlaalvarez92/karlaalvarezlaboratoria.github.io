@@ -1,4 +1,16 @@
-.App {
+ *{
+  margin:0;
+  padding:0;
+ }
+
+ .App{
+  background-image: url('fondo-natural-paisaje-acuarela_23-2148244687.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+ }
+ 
+ /* .App {
   background-image: url('fondo-natural-paisaje-acuarela_23-2148244687.jpg');
   background-size: cover;
   background-attachment: fixed;
@@ -38,7 +50,7 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 40px;
-}
+}  */
 
 
   

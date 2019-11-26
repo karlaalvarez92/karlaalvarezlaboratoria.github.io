@@ -1,6 +1,101 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Roboto+Condensed&display=swap');
 
-.nav {
+#home{display: none;}
+
+.menu-icon{
+  display: none;
+}
+
+header{
+  width:100%;
+  display: flex; 
+  justify-content:center; 
+}
+
+header nav{
+  width:90%;
+  background-color:#ebebeb ;
+  text-align: center;
+
+}
+
+header nav ul{
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li{
+  padding:20px;
+  text-decoration:none;
+  display:block;
+  color: #333;
+}
+
+header nav ul li:hover{
+  background-color:#e7e5e5;
+}
+
+header nav ul img{
+  width: 4rem;
+}
+
+header nav ul img:hover{
+  width: 4.5rem;
+}
+
+
+ @media screen and (max-width: 894px) {
+
+  #logo{
+    display:none;
+  }
+
+  #home{
+    display:block;
+  }
+
+  header{
+    display: inline; 
+  }
+
+  header nav {
+    width:50%;
+    height: auto;
+		margin:0;
+    background-color:#ebebeb ;
+  } 
+  
+  header nav ul{
+  display: inline;
+  }
+ 
+	 header nav ul li {
+		border-bottom:1px solid rgba(255,255,255, .3);
+	} 
+ 
+	 .menu-bar {
+    background: #ebebeb; 
+    border-bottom:1px solid rgba(255,255,255, .3);
+    
+  } 
+  
+   .menu-bar .menu-icon {
+		display:block;
+		padding:1rem;
+    background:#ebebeb;
+    width: 2rem;
+	} 
+ 
+} 
+
+
+
+
+
+/*---------------------------------------------*/
+
+ /* .nav {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #ebebeb;
@@ -43,4 +138,5 @@
   .nav-item:hover {
     color: black;
     cursor: pointer;
-  }
+  }  */
+

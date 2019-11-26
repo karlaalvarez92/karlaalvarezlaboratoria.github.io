@@ -44,7 +44,7 @@ class App extends Component {
   return (
     <div className="App">
         <Navbar logo= {this.state.logo} />
-        <Home
+        {/* <Home
           title= {this.state.title}
           subtitle={this.state.subtitle}
           id="Home" 
@@ -84,7 +84,7 @@ class App extends Component {
           subtitle={dummyText}
           dark={true}
           id="section5"
-        /> */}
+        /> */} 
       </div> 
     );
   }

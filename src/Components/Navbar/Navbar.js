@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './Navbar.css';
+import "./Navbar.css";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export default class Navbar extends Component {
@@ -9,10 +9,18 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <nav className="nav" id="navbar">
-        <div className="nav-content">
-          <ul className="nav-items">
-            <li id = "item" className="nav-item">
+      <header>
+        <div className="menu-bar">
+          <img
+            onClick={console.log("Aquí va el menú")}
+            src="https://i.ibb.co/hmhL6wf/menu-icon.png"
+            alt=""
+            className="menu-icon"
+          />
+        </div>
+        <nav>
+          <ul>
+            <li id="home">
               <Link
                 activeClass="active"
                 to="Home"
@@ -20,12 +28,12 @@ export default class Navbar extends Component {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                src = {this.props.logo}
+                src={this.props.logo}
               >
-                
+                Home
               </Link>
             </li>
-            <li id = "item" className="nav-item">
+            <li>
               <Link
                 activeClass="active"
                 to="Projects"
@@ -37,7 +45,7 @@ export default class Navbar extends Component {
                 Projects
               </Link>
             </li>
-            <li id = "item" className="nav-item">
+            <li>
               <Link
                 activeClass="active"
                 to="About me"
@@ -49,9 +57,15 @@ export default class Navbar extends Component {
                 About me
               </Link>
             </li>
-            <img onClick={()=>this.scrollToTop()} src={this.props.logo} alt="" className= "nav-item" id="logo"/>
-        
-            <li id = "item" className="nav-item">
+            <li id="logo">
+              <img
+                onClick={() => this.scrollToTop()}
+                src={this.props.logo}
+                alt=""
+                
+              />
+            </li>
+            <li>
               <Link
                 activeClass="active"
                 to="Skills"
@@ -63,8 +77,8 @@ export default class Navbar extends Component {
                 Skills
               </Link>
             </li>
-            
-            <li id = "item" className="nav-item">
+
+            <li>
               <Link
                 activeClass="active"
                 to="Contact"
@@ -77,8 +91,8 @@ export default class Navbar extends Component {
               </Link>
             </li>
           </ul>
-        </div>
-      </nav>
+        </nav>
+      </header>
     );
   }
 }

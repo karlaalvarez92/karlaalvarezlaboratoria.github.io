@@ -21,13 +21,10 @@ const data= {
             "Responsabilidad",
             "Perseverancia",
             "Compromiso",
-            "Empatia",
-            "Auto aprendizaje",
+            "Autoaprendizaje",
             "Resiliencia",
-            "Auto motivación",
-            "Auto disciplina",
-            "Auto reflexión",
-            "Auto confianza",
+            "Autodisciplina",
+        
 
         ],
         "technicallSkills": [
@@ -91,7 +88,7 @@ const data= {
         },
         {
             "id": "CV",
-            "link": "https://drive.google.com/uc?id=1h_uOgVig3a7ExZsjZ3V1GMgRHPG0rC7O&export=download",
+            "link": "https://drive.google.com/file/d/1_LnFHLJE2IhgHvnNbb9Z4PDVxzY08PIz/view?usp=sharing",
             "text": "Karla Alvarez",
             "icon": "https://i.ibb.co/Lzwc7xD/cv-1.png"
         }]       
