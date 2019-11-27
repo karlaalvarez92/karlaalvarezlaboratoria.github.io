@@ -1,17 +1,27 @@
-.aboutMeBackground {
-  color:#ececec ;
-  background-color:#3a143f;
-  background-size: 100%;
-  margin: 1rem;
-  font-size: 1.4rem;
-  padding: 2.5rem;
-  }
+main{
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  
+}
 
+main div{
+  background: rgba(58, 20, 63, .92);
+  /* background-color: #3a143f ; */
+  width:90%;
+  color:#ececec;
+  /* padding: 1% 1% 1% 3%; */
+}
 
+main div h1{
+  font-family: 'Merienda One', cursive;
+  font-size: 3rem;
+  margin: 1.5rem 0 2rem 2rem;
+}
 
-  .about-title{
-    margin-top: -.5rem;
-    margin-right: 40rem;
-    margin-left: -1rem; 
-    font-family: 'Merienda One', cursive;
-  }
+main div p{
+  margin: 0 2rem 2rem 2rem;
+  font-size: 1.3rem;
+}
+
