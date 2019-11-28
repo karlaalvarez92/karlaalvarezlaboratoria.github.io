@@ -16,6 +16,10 @@ header nav{
   width:90%;
   background-color:#ebebeb ;
   text-align: center;
+  position: fixed;
+  z-index:3 ;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+
 }
 
 header nav ul{
@@ -42,6 +46,11 @@ header nav ul img{
 
  @media screen and (max-width: 894px) {
 
+  .menu-bar{
+    display: block;
+    z-index: 3;
+  }
+
   #logo{
     display:none;
   }
@@ -50,19 +59,15 @@ header nav ul img{
     display:block;
   }
 
-  header{
-    display: inline; 
-  }
-
   header nav {
-    width:50%;
+    width:100%;
     height: auto;
 		margin:0;
-    background-color:#ebebeb ;
+    
   } 
   
   header nav ul{
-  display: inline;
+  display: none;
   }
  
 	 header nav ul li {
@@ -71,8 +76,10 @@ header nav ul img{
  
 	 .menu-bar {
     background: #ebebeb; 
+    width:100%;
     border-bottom:1px solid rgba(255,255,255, .3);
-    
+    position: fixed;
+    top:0;
   } 
   
    .menu-bar .menu-icon {

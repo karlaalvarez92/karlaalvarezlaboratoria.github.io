@@ -2,24 +2,41 @@ import React, { Component } from "react";
 import "./Navbar.css";
 import { Link, animateScroll as scroll } from "react-scroll";
 
+
 export default class Navbar extends Component {
+
+  // styleMenu={
+  //   display: block
+  // }
+
+  constructor() {
+    super();
+    this.state = {
+      displayMenu:false
+    }
+  }
+    // openMenu= ()=>{
+    //   this.setState({ displayMenu: true })
+    //   }
+
   scrollToTop = () => {
     scroll.scrollToTop();
   };
 
   render() {
+    console.log(this.state);
     return (
       <header>
         <div className="menu-bar">
           <img
-            onClick={console.log("Aquí va el menú")}
+            onClick= {()=> this.setState({displayMenu: !this.state.displayMenu})}
             src="https://i.ibb.co/hmhL6wf/menu-icon.png"
             alt=""
             className="menu-icon"
           />
         </div>
         <nav>
-          <ul>
+          <ul style= {this.state.displayMenu ? {display: "block"} : {} }> 
             <li id="home">
               <Link
                 activeClass="active"
