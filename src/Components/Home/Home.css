@@ -37,5 +37,20 @@
   margin-bottom: -1.5rem;
 }
 
+@media screen and (max-width: 560px){
 
+  .title{
+    font-size: 2.5rem;
+    margin-bottom: -.5rem;
+  }
 
+  .subtitle{
+    font-size: 1.9rem;
+}
+
+/* .text-home{
+  display:flex;
+  justify-content: center;
+} */
+
+}
