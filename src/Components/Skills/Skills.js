@@ -4,24 +4,24 @@ import './Skills.css'
 export default function Skills({ title, softSkills, technicallSkills, id }) {
   
   return (
-    <div className={"skills-section"} id={id}>
-       <div className="skills-tec" id={id}>
-       <h1 className = "tec-title">Tools</h1>
-        <ul className = "tecList">
+    <div className="skills-container" id={id}>
+       <section className="tech" id={id}>
+       <h1 className = "tools">Tools</h1>
+        <ul>
           {technicallSkills && technicallSkills.map(el => 
-            <li className= "list-tec" key={el}>{el}</li>)}
+            <li key={el}>{el}</li>)}
         </ul>
-      </div>
+      </section>
 
-      <div className= "skills-soft">
-        <h1 className = "soft-title">Soft skills</h1> 
-        <ul className = "softList">
+      {/* <img src="https://i.ibb.co/31WggTW/onda-correcta.png" alt=""/> */}
+
+      <section className= "soft">
+        <h1 className = "softSkills">Soft skills</h1> 
+        <ul>
           {softSkills && softSkills.map(el => 
-            <li className = "list-soft" key={el}>{el}</li>)}
+            <li key={el}>{el}</li>)}
         </ul>
-      </div>
-
-     
+      </section>
      </div>
   );
 }

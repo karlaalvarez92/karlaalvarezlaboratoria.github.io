@@ -1,4 +1,56 @@
-.skills-section{
+.skills-container{
+    width: 100%;
+    margin-top: 1rem;
+    background-color: rosybrown;
+}
+
+.skills-container section{
+    width: 90%;
+    /* background-color: royalblue; */
+    margin: auto auto;
+}
+
+.skills-container section h1{
+    background: red;
+    font-family: 'Merienda One', cursive; 
+    font-size: 3rem;
+    padding: 1rem 7rem 1rem 3rem;
+}
+
+.tools{
+    text-align: right;
+    color:#3a143f;
+}
+
+.soft{
+    color:#ececec;
+}
+
+
+.tech{
+    background-color:#ececec ;
+}
+
+.soft{
+    background-color:#3a143f
+}
+
+.skills-container img{
+    width:90%;
+    margin-left:5%; 
+    margin-bottom:0;
+}
+
+@media screen and (max-width: 894px) {
+    .skills-container section h1{
+        padding-right: 3rem;
+    }
+
+}
+
+/*_____----------------------------*/
+
+/* .skills-section{
     background-image: url('./onda-correcta.png'); 
     background-repeat: no-repeat;
     background-position: 100% 41%; 
@@ -75,4 +127,4 @@
     width: 10rem;
     height: 2rem;
 }
-
+ */
