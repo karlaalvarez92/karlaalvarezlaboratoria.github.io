@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f080c9f.chunk.css",
+    "main.css": "/static/css/main.9038568d.chunk.css",
     "main.js": "/static/js/main.2e99c845.chunk.js",
     "main.js.map": "/static/js/main.2e99c845.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ea3c4911.js",
@@ -8,9 +8,9 @@
     "static/js/2.202c3a60.chunk.js": "/static/js/2.202c3a60.chunk.js",
     "static/js/2.202c3a60.chunk.js.map": "/static/js/2.202c3a60.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.da468cc8344e2c817f6543536d6d945e.js": "/precache-manifest.da468cc8344e2c817f6543536d6d945e.js",
+    "precache-manifest.f81d3587601bb47a084a5916107cbc4f.js": "/precache-manifest.f81d3587601bb47a084a5916107cbc4f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3f080c9f.chunk.css.map": "/static/css/main.3f080c9f.chunk.css.map",
+    "static/css/main.9038568d.chunk.css.map": "/static/css/main.9038568d.chunk.css.map",
     "static/media/App.css": "/static/media/fondo-natural-paisaje-acuarela.811e7f69.png"
   }
 }
