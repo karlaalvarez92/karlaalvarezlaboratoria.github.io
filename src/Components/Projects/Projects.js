@@ -4,6 +4,7 @@ import "./Projects.css";
 export default function Projects({ title, subtitle, projects, id }) {
   return (
     <div className="projects-container" id={id}>
+      <div>
       <h1>{title}</h1>
 
       <main>
@@ -11,16 +12,16 @@ export default function Projects({ title, subtitle, projects, id }) {
           projects.map(element => (
 
             <section key={element.titleProject}>
-              <div class="flip-card">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
+              {/* <div className="flip-card">
+                <div className="flip-card-inner">
+                  <div className="flip-card-front">
                     <img id="project-img" alt="" src={element.image[0]} />
                   </div>
-                  <div class="flip-card-back">
+                  <div className="flip-card-back">
                     <img alt="" src={element.image[1]} />
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <article>
                 <h3>{element.titleProject}</h3>
@@ -56,6 +57,7 @@ export default function Projects({ title, subtitle, projects, id }) {
             </section>
           ))}
       </main>
+      </div>
     </div>
   );
 }

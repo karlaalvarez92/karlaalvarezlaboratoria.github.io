@@ -19,7 +19,8 @@ class App extends Component {
       subtitle: "",
       aboutMe: "",
       softSkills: "",
-      technicallSkills: ""
+      technicallSkills: "",
+      techIcons: "",
     }
   }
 
@@ -34,7 +35,8 @@ class App extends Component {
         softSkills: el.softSkills,
         technicallSkills: el.technicallSkills,
         projects: el.projects,
-        contact: el.contact
+        contact: el.contact,
+        techIcons: el.techIcons
       })
     )
 }
@@ -43,7 +45,7 @@ class App extends Component {
   
   return (
     <div className="App">
-        <Navbar logo= {this.state.logo} />
+        <Navbar logo= {this.state.logo}/>
         <Home
           title= {this.state.title}
           subtitle={this.state.subtitle}
@@ -56,7 +58,7 @@ class App extends Component {
           id="Projects"
           projects = {this.state.projects}
         />
-       {/* <About
+        <About
           title="About me"
           //subtitle={}
           dark={true}
@@ -70,21 +72,14 @@ class App extends Component {
           id="Skills"
           softSkills={this.state.softSkills}
           technicallSkills={this.state.technicallSkills}
-        />
+          techIcons={this.state.techIcons}
+       /> 
        
         <Contact
           title="Contact"
-          //subtitle={dummyText}
-          dark={false}
           id="Contact"
           contact = {this.state.contact}
         />
-         {/* <Section
-          title="Section 5"
-          subtitle={dummyText}
-          dark={true}
-          id="section5"
-        /> */} 
       </div> 
     );
   }

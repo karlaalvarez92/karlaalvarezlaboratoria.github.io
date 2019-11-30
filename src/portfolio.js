@@ -15,14 +15,12 @@ const data= {
             "Enfoque a soluciones",
             "Adaptabilidad",
             "Dar/recibir Feedback", 
-            "Comunicación efectiva",
             "Hablar en público",
             "Trabajo en equipo",
             "Responsabilidad",
             "Perseverancia",
             "Compromiso",
             "Autoaprendizaje",
-            "Resiliencia",
             "Autodisciplina",
         
 
@@ -41,6 +39,9 @@ const data= {
             "Kanban",
             "Jest"
         ],
+        "techIcons": [
+            "https://i.ibb.co/jzqLR9D/github-1.png"
+        ],
         "projects":[{
             "titleProject":"Ne-Koffee",
             "description":"Webapp diseñada colaborativamente para tomar comandas en una cafetería temática.",
@@ -54,7 +55,7 @@ const data= {
             "titleProject":"Markdown Links",
             "description":"Librería que detecta y valida los links de un archivo Markdown",
             "technologies":["Node.js", "JavaScrip"],
-            "image":["https://i.ibb.co/bgyNCFk/nekoffe1.png", "https://i.ibb.co/gd7RZ2j/nekoffe2.png"],
+            "image":["https://i.ibb.co/DYQw9sY/mdlinks.jpg", "https://i.ibb.co/gd7RZ2j/nekoffe2.png"],
             "link": "",
             "repo": "https://github.com/karlaalvarezlaboratoria/GDL003-md-links",
             "demo": "",
@@ -63,7 +64,7 @@ const data= {
             "titleProject":"Lab Notes",
             "description":"Webapp de creación de notas personales con autenticación por gmail.",
             "technologies":["React.js", "Reactstrap", "Firebase"],
-            "image":["https://i.ibb.co/bgyNCFk/nekoffe1.png", "https://i.ibb.co/gd7RZ2j/nekoffe2.png"],
+            "image":["https://i.ibb.co/k0037jJ/foto-lab-notes-cambiar.png", "https://i.ibb.co/Fn6vsJH/firebase1.png"],
             "link": "",
             "repo": ""
         }],
