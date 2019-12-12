@@ -12,16 +12,18 @@ export default function Projects({ title, subtitle, projects, id }) {
           projects.map(element => (
 
             <section key={element.titleProject}>
-              {/* <div className="flip-card">
-                <div className="flip-card-inner">
-                  <div className="flip-card-front">
-                    <img id="project-img" alt="" src={element.image[0]} />
-                  </div>
+              {/* <div className= "image-container"> */}
+              <div className="flip-card">
+                {/* <div className="flip-card-inner">
+                  <div className="flip-card-front"> */}
+                    {/* <img id="project-img" alt="" src={element.image[0]} /> */}
+                  {/*</div>
                   <div className="flip-card-back">
                     <img alt="" src={element.image[1]} />
                   </div>
-                </div>
-              </div> */}
+                </div> */}
+              </div>
+              {/* </div> */}
 
               <article>
                 <h3>{element.titleProject}</h3>
@@ -40,7 +42,7 @@ export default function Projects({ title, subtitle, projects, id }) {
                     rel="noopener noreferrer"
                     href={element.repo}
                   >
-                    Ver repositorio
+                    Go to repository
                   </a>
                 </p>
                 <p>
@@ -50,7 +52,7 @@ export default function Projects({ title, subtitle, projects, id }) {
                     rel="noopener noreferrer"
                     href={element.link}
                   >
-                    Ir a página web
+                    Go to web site
                   </a>
                 </p>
               </article>

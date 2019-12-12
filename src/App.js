@@ -8,7 +8,7 @@ import About from './Components/AboutMe/AboutMe';
 import Projects from './Components/Projects/Projects';
 import Home from './Components/Home/Home';
 //import Butterfly from './Butterflies'
-import portfolio from './portfolio';
+import portfolio from './englishPortfolio';
 
 class App extends Component {
   constructor() {
