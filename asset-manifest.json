@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9038568d.chunk.css",
-    "main.js": "/static/js/main.b9cd7a88.chunk.js",
-    "main.js.map": "/static/js/main.b9cd7a88.chunk.js.map",
+    "main.css": "/static/css/main.87ba69f2.chunk.css",
+    "main.js": "/static/js/main.b6f75faf.chunk.js",
+    "main.js.map": "/static/js/main.b6f75faf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ea3c4911.js",
     "runtime-main.js.map": "/static/js/runtime-main.ea3c4911.js.map",
     "static/js/2.202c3a60.chunk.js": "/static/js/2.202c3a60.chunk.js",
     "static/js/2.202c3a60.chunk.js.map": "/static/js/2.202c3a60.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.00c14711f43253416688a30c788107ad.js": "/precache-manifest.00c14711f43253416688a30c788107ad.js",
+    "precache-manifest.7c100acdffee76963b52a489c6023805.js": "/precache-manifest.7c100acdffee76963b52a489c6023805.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9038568d.chunk.css.map": "/static/css/main.9038568d.chunk.css.map",
+    "static/css/main.87ba69f2.chunk.css.map": "/static/css/main.87ba69f2.chunk.css.map",
     "static/media/App.css": "/static/media/fondo-natural-paisaje-acuarela.811e7f69.png"
   }
 }
