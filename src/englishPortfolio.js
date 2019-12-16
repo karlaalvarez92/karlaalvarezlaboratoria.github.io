@@ -6,15 +6,16 @@ const data = {
       title: "Karla Alvarez",
       subtitle: "Front-end Developer Jr.",
       aboutMe: [
-        "My name is Karla Alvarez and I am a self-taught Front-End developer. I just graduated from Laboratoria where I learned intensively in 6 months to design WebApps and work with agile methodologies. I want to continue developing my skills as a programmer and also become Fullstack, also, I would love to become a Scrum Master. ",
-        "After learning, my greatest passion is to create. Before being a programmer I made a living teaching ballet and as a saleswoman, with these two activities I discovered and developed most of my soft skills. I have the pleasure and ease of learning on my own or with a guide, to communicate my ideas, to work as a team, to speak in public and to teach. I really enjoy creating connection with people and learning from everything around me. "
+        "My name is Karla Alvarez and I am a self-taught Front-End developer. I recently graduated from Laboratoria where I learned how to design WebApps and work with agile methodologies throughout the intensive 6-month bootcamp.  I want to continue developing my skills as a programmer and also become Fullstack.  I’m planning on becoming a Scrum Master. ",
+        "After learning, my greatest passion is creating. Before being a programmer, I made a living by teaching ballet and as a saleswoman; with these two activities I discovered and developed most of my soft skills. I have the pleasure and ease of learning on my own or with guidance,  communicating my ideas,  working as a team,  speaking in public and  teaching. I really enjoy building connections with people and learning from everything around me. "
+
       ],
       softSkills: [
         "Agile methodologies",
         "Analytics",
         "Focus on solutions",
         "Adaptability",
-        "Give / receive Feedback",
+        "Giving / receiving Feedback",
         "Public speaking",
         "Teamwork",
         "Responsibility",
@@ -103,7 +104,7 @@ const data = {
         {
           id: "CV",
           link:
-            "https://drive.google.com/file/d/1_LnFHLJE2IhgHvnNbb9Z4PDVxzY08PIz/view?usp=sharing",
+            "https://drive.google.com/file/d/16vUrWjVphI1N5eshWfgqx4oFwNaQXwNr/view?usp=sharing",
           text: "Karla Alvarez",
           icon: "https://i.ibb.co/Lzwc7xD/cv-1.png"
         }

@@ -13,7 +13,7 @@ export default function Projects({ title, subtitle, projects, id }) {
 
             <section key={element.titleProject}>
               {/* <div className= "image-container"> */}
-              <div className="flip-card">
+              {/* <div className="flip-card"> */}
                 {/* <div className="flip-card-inner">
                   <div className="flip-card-front"> */}
                     {/* <img id="project-img" alt="" src={element.image[0]} /> */}
@@ -22,7 +22,7 @@ export default function Projects({ title, subtitle, projects, id }) {
                     <img alt="" src={element.image[1]} />
                   </div>
                 </div> */}
-              </div>
+              {/* </div> */}
               {/* </div> */}
 
               <article>
